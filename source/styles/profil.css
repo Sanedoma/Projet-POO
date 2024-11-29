@@ -1,0 +1,60 @@
+.profile-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-info,
+.user-articles {
+    margin-bottom: 20px;
+}
+
+.user-info h2,
+.user-articles h2 {
+    margin-bottom: 15px;
+    color: #4b6cb7;
+}
+
+.user-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.user-articles ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-articles li {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+.user-articles h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #182848;
+}
+
+.user-articles p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.user-articles a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4b6cb7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.user-articles a:hover {
+    color: #182848;
+}
